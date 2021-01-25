@@ -460,12 +460,13 @@ header ul li:nth-of-type(3) button{
     flex-direction: column;
     align-items: center;
     background: #F8F8F8;
+    padding-bottom: 100px;
 }
 
 .footer-container .top-footer {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     background: #FFFFFF;
     margin-top: -150px;
@@ -506,9 +507,10 @@ header ul li:nth-of-type(3) button{
 
 /* bottom footer */
 .bottom-footer {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .bottom-footer .left-footer {
@@ -517,3 +519,106 @@ header ul li:nth-of-type(3) button{
     width: 30%;
     justify-content: space-around;
 }
+
+.bottom-footer .left-footer .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.bottom-footer .left-footer .top p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.bottom-footer .left-footer .top span {
+    font-weight: 500;
+}
+
+.bottom-footer .left-footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-footer .left-footer .logo p {
+    padding-left: 10px;
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+}
+
+.bottom-footer .left-footer .logo span {
+    font-weight: 700;
+}
+
+.bottom-footer .left-footer .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-footer .left-footer .bottom .socials {
+    margin-left: -20px;
+}
+
+.bottom-footer .left-footer .bottom > p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #AFB5C0;
+    font-weight: 400;
+}
+
+.bottom-footer .left-footer .bottom > p > span {
+    font-weight: 500;
+}
+
+/* Right-footer */
+.bottom-footer .right-footer {
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.bottom-footer .right-footer .middle {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.first, .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle p {
+    font-weight: 500;
+    color: #0B132A;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+ul {
+    line-height: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul p {
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.end p {
+    font-weight: 500;
+    color: #0B132A;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
