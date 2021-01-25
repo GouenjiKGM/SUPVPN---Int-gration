@@ -360,6 +360,7 @@ header ul li:nth-of-type(3) button{
     border:solid 1px #F64545;
     background-color: #fff;
 }
+
 .plans_plan_element > div:last-of-type > h2{
     font-family: "Rubik";
     font-size: 25px;
@@ -474,7 +475,7 @@ header ul li:nth-of-type(3) button{
     width: 30%;
     text-align: center;
     height: 140px;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .container .top > h1 {
@@ -501,7 +502,7 @@ header ul li:nth-of-type(3) button{
 
 .container .bottom .customers-views {
     display: flex;
-    margin-left: 70px;
+    margin-left: 150px;
     min-width: 98%;
 }
 
@@ -563,7 +564,7 @@ header ul li:nth-of-type(3) button{
 }
 
 .container .bottom .navigation .sliding {
-    padding: 50px 100px;
+    padding: 50px 180px;
 }
 
 .container .bottom .navigation .arrows {
@@ -585,7 +586,7 @@ header ul li:nth-of-type(3) button{
 .footer-container .top-footer {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 75%;
     border-radius: 10px;
     background: #FFFFFF;
     margin-top: -150px;
@@ -626,7 +627,7 @@ header ul li:nth-of-type(3) button{
 
 /* bottom footer */
 .bottom-footer {
-    width: 90%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
