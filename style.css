@@ -504,6 +504,7 @@ header ul li:nth-of-type(3) button{
     display: flex;
     margin-left: 150px;
     min-width: 98%;
+    overflow: scroll;
 }
 
 .container .bottom .customers-views .views {
