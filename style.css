@@ -112,6 +112,9 @@
     background-color: #fff;
     border: solid 1px #DDDDDD;
     border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
 }
 .plans_plan_element_options{
     display: flex;
@@ -158,4 +161,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+}
+.plans_plan_element > div:last-of-type{
+    display: flex;
+    flex-direction: column;
 }
